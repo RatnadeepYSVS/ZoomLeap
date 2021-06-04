@@ -11,7 +11,7 @@ for i in range(len(z)):
     s,e=input('Please Enter The Start Time And End Time->').split()#A Quick Note """Please Specify Time In 24 Hour Format""" 
     k=k+[[s,e]]#Adds Timings For Perspective classes
 lis=list(zip(k,z))#Mapping class Links and  Their Timings
-lis.sort()#Soritng Based On Least Time
+lis.sort()#Sorting Based On Least Time
 rejoined=False#Flag Variable 1
 started=False#Flag Variable 2
 def start(t):
